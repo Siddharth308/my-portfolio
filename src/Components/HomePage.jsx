@@ -27,7 +27,7 @@ import DemoContact from "./DemoContact";
 const HomePage = () => {
   const [menu, setMenu] = React.useState(false);
   const [dark, setDark] = React.useState(false);
-  const [flag,setFlag] = React.useState(false)
+  const [flag, setFlag] = React.useState(false);
   /*===== MENU SHOW =====*/
   // const showMenu = (toggleId, navId) => {
   //   const toggle = document.getElementById(toggleId),
@@ -42,8 +42,7 @@ const HomePage = () => {
   // showMenu("nav-toggle", "nav-menu");
 
   React.useEffect(() => {
-    if(flag)
-      ScrollReveal().destroy();
+    if (flag) ScrollReveal().destroy();
     /*===== ACTIVE AND REMOVE MENU =====*/
     const navLink = document.querySelectorAll(".nav__link");
 
@@ -86,7 +85,7 @@ const HomePage = () => {
 
     /*SCROLL CONTACT*/
     sr.reveal(".contact__input", { interval: 200 });
-    setFlag(!flag)
+    setFlag(!flag);
   }, []);
   function refreshPage() {
     setTimeout(() => {
@@ -196,7 +195,12 @@ const HomePage = () => {
               <h1 class="home__title">
                 Hi,
                 <br />
-                I'am <span class="home__title-color">Siddharth</span>
+                I'am{" "}
+                <span class="home__title-color">
+                  <a href="#" onClick={refreshPage}>
+                    Siddharth
+                  </a>
+                </span>
                 <br /> Full Stack Developer
               </h1>
               {/* <Button className="button" color='#ccc' bgColor='var(--primary)'>colored</Button> */}
@@ -231,7 +235,7 @@ const HomePage = () => {
             <Card className="home__img ">
               <img
                 className="home__img__photo "
-                src="img/sid-black.jpg"
+                src="img/newsid2.jpg"
                 alt="profilr"
               />
             </Card>
@@ -245,16 +249,23 @@ const HomePage = () => {
               <div class="about__img work__img ">
                 <img src="img/siddharth.jpg" alt="" />
               </div>
-
+              {/* I have done work in software development, mobile app creation, front-end/back-end web, database/server management */}
               <div>
                 <h2 class="about__subtitle">I'am Prabhu Siddharth</h2>
                 <p class="about__text">
-                  Passionate about competitive programming currently final year
-                  student pursuing MCA in LPU. Good understand in DATA
-                  STRUCTURE,DATABASE and OOPS.i have done certification from
-                  coursera in data structure , algorithms and SQL programming. i
-                  have secured 8.34/10 in my first year of mca.My Project links
-                  are bellow hosted in aws and heroku.{" "}
+                  A code enthusiast with remarkable hands-on exprience in front
+                  end/back end web. My hustle-bustle with the web development
+                  made me a passionate developer. An IT graduate engineer ,in
+                  love with coding and cooking.
+                  <br />
+                  <br />
+                  <i>
+                    <H6>
+                      {" "}
+                      I alwyas strive to build things that will make a
+                      difference.
+                    </H6>
+                  </i>{" "}
                 </p>
               </div>
             </div>
@@ -265,13 +276,7 @@ const HomePage = () => {
             <h2 class="section-title">Skills</h2>
             <Card className="skill__box">
               <h2 class="skills__subtitle">Profesional Skills</h2>
-              <p class="skills__text">
-                {" "}
-                aspiring software engineer good knowledge in data structure and
-                algorithms , sql programming , c , c++ , java , database . I
-                have also basic understanding in web technologies htlm , css ,
-                javascript.{" "}
-              </p>
+              <p class="skills__text"></p>
               <div class="skills__container ">
                 <div class="work__container skill-grid">
                   <Card style={{ padding: "8px" }} className="skill-card">
@@ -462,17 +467,18 @@ const HomePage = () => {
             <div class="work__container bd-grid">
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
-                  <a href="https://github.com/rishi7pillai/Auto-Suggestion-Application-of-TRIE-">
+                  <a href="">
                     <img src="img/reddit.png" alt="" />
                     <H6>Reddit Clone Application</H6>
                   </a>
                   <CardContent>
-                    <Subtitle2 secondary style={{ marginBottom: "4px" }}>
-                      Number 1
-                    </Subtitle2>
+                    <Subtitle2
+                      secondary
+                      style={{ marginBottom: "4px" }}
+                    ></Subtitle2>
                     <Body2>
-                      Radhanagar Beach <br />
-                      Havock Island, Andaman
+                      A community platform where like minded individuals can
+                      interact with each other.
                     </Body2>
                   </CardContent>
                   <CardAction>
@@ -492,17 +498,18 @@ const HomePage = () => {
               </Card>
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
-                  <a href="https://rishi7pillai.github.io/TwitterSchedular/">
+                  <a href="">
                     <img src="img/al-jajeera2.png" alt="" />
                     <H6>Aljazeera Clone Application</H6>
                   </a>
                   <CardContent>
-                    <Subtitle2 secondary style={{ marginBottom: "4px" }}>
-                      Number 1
-                    </Subtitle2>
+                    <Subtitle2
+                      secondary
+                      style={{ marginBottom: "4px" }}
+                    ></Subtitle2>
                     <Body2>
-                      Radhanagar Beach <br />
-                      Havock Island, Andaman
+                      A website that provides users with all type of news and
+                      current affairs
                     </Body2>
                   </CardContent>
                   <CardAction>
@@ -527,12 +534,13 @@ const HomePage = () => {
                     <H6>Timecamp Clone Application</H6>
                   </a>
                   <CardContent>
-                    <Subtitle2 secondary style={{ marginBottom: "4px" }}>
-                      Number 1
-                    </Subtitle2>
+                    <Subtitle2
+                      secondary
+                      style={{ marginBottom: "4px" }}
+                    ></Subtitle2>
                     <Body2>
-                      Radhanagar Beach <br />
-                      Havock Island, Andaman
+                      A platform where user can add tasks that they want to
+                      assign
                     </Body2>
                   </CardContent>
                   <CardAction>
@@ -552,17 +560,17 @@ const HomePage = () => {
               </Card>
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
-                  <a href="https://rishi7pillai.github.io/TataHome/">
+                  <a href="">
                     <img src="img/work3.jpg" alt="" />
                     <H6>Auto-Suggestion-Application</H6>
                   </a>
                   <CardContent>
                     <Subtitle2 secondary style={{ marginBottom: "4px" }}>
-                      Number 1
+                     
                     </Subtitle2>
                     <Body2>
-                      Radhanagar Beach <br />
-                      Havock Island, Andaman
+                      A platform where user can add tasks that they want to
+                      assign
                     </Body2>
                   </CardContent>
                 </div>
@@ -571,11 +579,10 @@ const HomePage = () => {
           </section>
 
           <section class="work section" id="work">
-            <h2 class="section-title">Profieciencies</h2>
+            <h2 class="section-title">Proficiency</h2>
 
             <div class="work__container bd-grid">
               <Card inset className="proficiency">
-                <img src="assets/img/work4.jpg" alt="" />
                 <H3> 1200+ </H3>
                 <Body2>Hours Of Coding</Body2>
               </Card>
@@ -607,19 +614,16 @@ const HomePage = () => {
 
         {/* <!--===== FOOTER =====--> */}
         <footer class="footer">
-          <p class="footer__title">Prabhu</p>
+          <p class="footer__title">Siddharth</p>
           <div class="footer__social">
-            <a
-              href="https://www.facebook.com/profile.php?id=100034263770718"
-              class="footer__icon"
-            >
+            <a href="" class="footer__icon">
               <i class="bx bxl-facebook"></i>
             </a>
             <a
-              href="https://www.hackerrank.com/hrushikeshpolla2?hr_r=1"
+              href="https://www.reddit.com/user/Siddharth308"
               class="footer__icon"
             >
-              <i class="bx bxl-instagram"></i>
+              <i class="bx bxl-reddit"></i>
             </a>
             <a href="https://twitter.com/lordd_buddha" class="footer__icon">
               <i class="bx bxl-twitter"></i>
