@@ -90,7 +90,7 @@ const DemoContact = () => {
                 className="contact__input"
                 id="subject"
                 type="text"
-                placeholder="Subject"
+                placeholder="Any message for me!!"
                 name="subject"
                 value={desc}
                 onChange={(e) => setDesc(e.value)}
