@@ -499,7 +499,7 @@ const HomePage = () => {
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
                   <a href="">
-                    <img src="img/al-jajeera2.png" alt="" />
+                    <img src="img/Al-jajeera2.png" alt="" />
                     <H6>Aljazeera Clone Application</H6>
                   </a>
                   <CardContent>
@@ -561,8 +561,8 @@ const HomePage = () => {
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
                   <a href="">
-                    <img src="img/work3.jpg" alt="" />
-                    <H6>Auto-Suggestion-Application</H6>
+                    <img src="img/chargebee.png" alt="" />
+                    <H6>Chargebee Clone Application</H6>
                   </a>
                   <CardContent>
                     <Subtitle2 secondary style={{ marginBottom: "4px" }}>
@@ -573,6 +573,19 @@ const HomePage = () => {
                       assign
                     </Body2>
                   </CardContent>
+                  <CardAction>
+                    <a href="https://github.com/pallav1998/nitrogen_project">
+                      <Button text color="var(--primary)">
+                        Code
+                      </Button>
+                    </a>
+                    <Button text color="var(--primary)" disabled>
+                      Explore
+                    </Button>
+                    {/* <a href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
+                     
+                    </a> */}
+                  </CardAction>
                 </div>
               </Card>
             </div>
