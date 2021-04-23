@@ -642,7 +642,7 @@ const HomePage = () => {
               <i class="bx bxl-twitter"></i>
             </a>
           </div>
-          <p>&#169; 2020 copyright all right reserved</p>
+          <p>&#169; 2021 copyright all right reserved</p>
         </footer>
         {/* </CardContent> */}
       </Card>
