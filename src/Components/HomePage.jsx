@@ -195,7 +195,7 @@ const HomePage = () => {
               <h1 class="home__title">
                 Hi,
                 <br />
-                I'am{" "}
+                I'm{" "}
                 <span class="home__title-color">
                   <a href="#" onClick={refreshPage}>
                     Siddharth
@@ -251,11 +251,11 @@ const HomePage = () => {
               </div>
               {/* I have done work in software development, mobile app creation, front-end/back-end web, database/server management */}
               <div>
-                <h2 class="about__subtitle">I'am Prabhu Siddharth</h2>
+                <h2 class="about__subtitle"> Prabhu Siddharth</h2>
                 <p class="about__text">
                   A code enthusiast with remarkable hands-on exprience in front
                   end/back end web. My hustle-bustle with the web development
-                  made me a passionate developer. An IT graduate engineer ,in
+                  made me a passionate developer.I am an IT graduate engineer ,in
                   love with coding and cooking.
                   <br />
                   <br />
