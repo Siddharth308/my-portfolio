@@ -205,7 +205,7 @@ const HomePage = () => {
               </h1>
               {/* <Button className="button" color='#ccc' bgColor='var(--primary)'>colored</Button> */}
               <a
-                href="https://drive.google.com/file/d/1U5DURzXGaSS_ktUgRLmD0n8AtVJbRRJT/view"
+                href="https://drive.google.com/file/d/1tiZ8vL6Zl7D5GUrWPWlNuoESDUl9ZZme/view?usp=sharing"
                 class="button"
               >
                 Get CV
