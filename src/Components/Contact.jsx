@@ -12,19 +12,19 @@ const Contact = () => {
     const userID = "user_hBrt9lWtEmHAkOP5XbgCr";
 
     const onSubmit = (data, r) => {
-        sendEmail(
-            serviceID,
-            templateID,
-            {
-                name: data.name,
-                phone: data.phone,
-                email: data.email,
-                subject: data.subject,
-                description:data.description
-            },
-            userID
-        )
-        r.target.reset();
+        // sendEmail(
+        //     serviceID,
+        //     templateID,
+        //     {
+        //         name: data.name,
+        //         phone: data.phone,
+        //         email: data.email,
+        //         subject: data.subject,
+        //         description:data.description
+        //     },
+        //     userID
+        // )
+        // r.target.reset();
     }
 
     const sendEmail = (serviceID, templateID, variables, userID) => {

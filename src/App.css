@@ -272,7 +272,7 @@ img{
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: .75rem 2.5rem;
+  padding: .60rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
 }
@@ -447,7 +447,9 @@ img{
   outline: none;
   font-size: var(--normal-font-size);
   cursor: pointer;
-  margin-left: auto;
+  
+  margin-left: 56%;
+  margin-bottom: 20px;
 }
 
 /* ===== FOOTER =====*/
@@ -556,6 +558,7 @@ img{
   }
   .contact__form{
     width: 360px;
+  
   }
   .contact__container{
     justify-items: center;

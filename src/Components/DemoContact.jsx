@@ -1,7 +1,7 @@
 import React from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
-import { Alert, Card, TextArea, TextField } from "ui-neumorphism";
+import { Alert, Button, Card, TextArea, TextField } from "ui-neumorphism";
 import "ui-neumorphism/dist/index.css";
 import "../App.css";
 const DemoContact = () => {
@@ -11,44 +11,46 @@ const DemoContact = () => {
   const [name, setName] = React.useState("");
   const [sub, setSub] = React.useState("");
   const [desc, setDesc] = React.useState("");
+
+
   const serviceID = "siddharth_308";
   const templateID = "template_a104iza";
   const userID = "user_ZiINrBsMFdhQQlYNuEm0q";
-
+  var templateParams =  {
+    name: name,
+    email: email,
+    subject: sub,
+    description: desc,
+  };
   const onSubmit = (e) => {
     
     e.preventDefault();
-    sendEmail(
-      serviceID,
-      templateID,
-      {
-        name: name,
-        email: email,
-        subject: sub,
-        description: desc,
-      },
-      userID
-    );
-    setEmail("")
-    setName("")
-    setDesc("")
+  
+   
+     sendEmail()
+    
+    //alert("Suuccessfully Sent")
   };
-
-  // console.log(window.screen.width)
-  const sendEmail = (serviceID, templateID, variables, userID) => {
+  const sendEmail = () => {
     emailjs
-      .send(serviceID, templateID, variables, userID)
+      .send(serviceID, templateID, templateParams, userID)
       .then(() => {
-        setSuccessMessage(
+        alert(
           "Form Sent Sucessfully I will contact you as soon as possible"
         );
+        setEmail("")
+        setName("")
+        setDesc("")
+        
       })
       .catch((err) => console.error(`Something went wrong ${err}`));
   };
+  // console.log(window.screen.width)
+ 
  
       var wid = window.screen.width > 768 ? 300 : 280
 
-  console.log(successMessage);
+ 
   return (
     <div>
       <div>
@@ -95,12 +97,13 @@ const DemoContact = () => {
                 value={desc}
                 onChange={(e) => setDesc(e.value)}
               ></TextArea>
-              <input
+              {/* <input
                 type="button"
                 value="Enter"
                 class="contact__button button"
                 onClick={onSubmit}
-              />
+              /> */}
+              <Button onClick={onSubmit} style={{width:"120px"}} className="contact__button button">Enter</Button>
             </Card>
           </div>
         </section>
