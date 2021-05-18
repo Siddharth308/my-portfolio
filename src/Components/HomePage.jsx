@@ -131,11 +131,11 @@ const HomePage = () => {
         <header class="l-header">
           <nav class="nav bd-grid">
             <div>
-              <a href="#" class="nav__logo" onClick={refreshPage}>
+              <a target="_blank"  target="_blank" href="#" class="nav__logo" onClick={refreshPage}>
                 Siddharth
               </a>
             </div>
-            {/* <Alert type="info">
+            {/* <A target="_blank"lert type="info">
               Click On Siddharth to get enlighten again
             </Alert> */}
             <div
@@ -144,27 +144,27 @@ const HomePage = () => {
             >
               <ul class="nav__list">
                 <li class="nav__item">
-                  <a href="#home" class="nav__link active">
+                  <a target="_blank" href="#home" class="nav__link active">
                     Home
                   </a>
                 </li>
                 <li class="nav__item">
-                  <a href="#about" class="nav__link">
+                  <a target="_blank" href="#about" class="nav__link">
                     About
                   </a>
                 </li>
                 <li class="nav__item">
-                  <a href="#skills" class="nav__link">
+                  <a target="_blank" href="#skills" class="nav__link">
                     Skills
                   </a>
                 </li>
                 <li class="nav__item">
-                  <a href="#work" class="nav__link">
+                  <a target="_blank" href="#work" class="nav__link">
                     Work
                   </a>
                 </li>
                 <li class="nav__item">
-                  <a href="#contact" class="nav__link">
+                  <a target="_blank" href="#contact" class="nav__link">
                     Contact
                   </a>
                 </li>
@@ -197,35 +197,36 @@ const HomePage = () => {
                 <br />
                 I'm{" "}
                 <span class="home__title-color">
-                  <a href="#" onClick={refreshPage}>
+                  <a  href="#" onClick={refreshPage}>
                     Siddharth
                   </a>
                 </span>
                 <br /> Full Stack Developer
               </h1>
               {/* <Button className="button" color='#ccc' bgColor='var(--primary)'>colored</Button> */}
-              <a
+              <a 
+                target="_blank"
                 href="https://drive.google.com/file/d/1tiZ8vL6Zl7D5GUrWPWlNuoESDUl9ZZme/view?usp=sharing"
                 class="button"
               >
-                Get CV
+                Get Resume
               </a>
             </div>
 
             <div class="home__social">
-              <a
+              <a target="_blank"
                 href="https://www.linkedin.com/in/prabhu-siddharth97"
                 class="home__social-icon"
               >
                 <i class="bx bxl-linkedin"></i>
               </a>
-              <a
+              <a target="_blank"
                 href="https://prabhu-sid97.medium.com/"
                 class="home__social-icon"
               >
                 <i class="bx bxl-medium"></i>
               </a>
-              <a
+              <a target="_blank"
                 href="https://github.com/Siddharth308"
                 class="home__social-icon"
               >
@@ -467,7 +468,7 @@ const HomePage = () => {
             <div class="work__container bd-grid">
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
-                  <a href="">
+                  <a target="_blank" href="">
                     <img src="img/reddit.png" alt="" />
                     <H6>Reddit Clone Application</H6>
                   </a>
@@ -482,7 +483,7 @@ const HomePage = () => {
                     </Body2>
                   </CardContent>
                   <CardAction>
-                    <a href="https://github.com/Vishal643/delta">
+                    <a target="_blank" href="https://github.com/Vishal643/delta">
                       <Button text color="var(--primary)">
                         Code
                       </Button>
@@ -490,7 +491,7 @@ const HomePage = () => {
                     <Button text color="var(--primary)" disabled>
                       Explore
                     </Button>
-                    {/* <a href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
+                    {/* <a target="_blank" href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
                      
                     </a> */}
                   </CardAction>
@@ -498,7 +499,7 @@ const HomePage = () => {
               </Card>
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
-                  <a href="">
+                  <a target="_blank" href="">
                     <img src="img/Al-jajeera2.png" alt="" />
                     <H6>Aljazeera Clone Application</H6>
                   </a>
@@ -513,13 +514,13 @@ const HomePage = () => {
                     </Body2>
                   </CardContent>
                   <CardAction>
-                    <a href="https://github.com/rohanranjan25061996/hexane-aljeera-clone">
+                    <a target="_blank" href="https://github.com/rohanranjan25061996/hexane-aljeera-clone">
                       <Button text color="var(--primary)">
                         Code
                       </Button>
                     </a>
 
-                    <a href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
+                    <a target="_blank" href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
                       <Button text color="var(--primary)">
                         Explore
                       </Button>
@@ -529,7 +530,7 @@ const HomePage = () => {
               </Card>
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
-                  <a href="https://github.com/SmithRakesh/Beryllium">
+                  <a target="_blank" href="https://github.com/SmithRakesh/Beryllium">
                     <img src="img/timecamp.png" alt="" />
                     <H6>Timecamp Clone Application</H6>
                   </a>
@@ -544,7 +545,7 @@ const HomePage = () => {
                     </Body2>
                   </CardContent>
                   <CardAction>
-                    <a href="https://github.com/SmithRakesh/Beryllium">
+                    <a target="_blank" href="https://github.com/SmithRakesh/Beryllium">
                       <Button text color="var(--primary)">
                         Code
                       </Button>
@@ -552,7 +553,7 @@ const HomePage = () => {
                     <Button text color="var(--primary)" disabled>
                       Explore
                     </Button>
-                    {/* <a href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
+                    {/* <a target="_blank" href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
                      
                     </a> */}
                   </CardAction>
@@ -560,7 +561,7 @@ const HomePage = () => {
               </Card>
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
-                  <a href="">
+                  <a target="_blank" href="">
                     <img src="img/chargebee.png" alt="" />
                     <H6>Chargebee Clone Application</H6>
                   </a>
@@ -574,7 +575,7 @@ const HomePage = () => {
                     </Body2>
                   </CardContent>
                   <CardAction>
-                    <a href="https://github.com/pallav1998/nitrogen_project">
+                    <a target="_blank" href="https://github.com/pallav1998/nitrogen_project">
                       <Button text color="var(--primary)">
                         Code
                       </Button>
@@ -582,7 +583,7 @@ const HomePage = () => {
                     <Button text color="var(--primary)" disabled>
                       Explore
                     </Button>
-                    {/* <a href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
+                    {/* <a target="_blank" href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
                      
                     </a> */}
                   </CardAction>
@@ -629,16 +630,16 @@ const HomePage = () => {
         <footer class="footer">
           <p class="footer__title">Siddharth</p>
           <div class="footer__social">
-            <a href="" class="footer__icon">
-              <i class="bx bxl-facebook"></i>
+            <a target="_blank" href="tel:+919777099605" class="footer__icon">
+              <i class="bx bxs-phone-call"></i>
             </a>
-            <a
+            <a target="_blank"
               href="https://www.reddit.com/user/Siddharth308"
               class="footer__icon"
             >
               <i class="bx bxl-reddit"></i>
             </a>
-            <a href="https://twitter.com/lordd_buddha" class="footer__icon">
+            <a target="_blank" href="https://twitter.com/lordd_buddha" class="footer__icon">
               <i class="bx bxl-twitter"></i>
             </a>
           </div>
