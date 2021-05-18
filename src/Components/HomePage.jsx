@@ -488,11 +488,11 @@ const HomePage = () => {
                         Code
                       </Button>
                     </a>
-                    <Button text color="var(--primary)" >
+                    
+                    <a target="_blank" href="https://reddit-clone-sid.netlify.app/">
+                    <Button text color="var(--primary)">
                       Explore
                     </Button>
-                    <a target="_blank" href="https://reddit-clone-sid.netlify.app/">
-                     
                     </a>
                   </CardAction>
                 </div>
