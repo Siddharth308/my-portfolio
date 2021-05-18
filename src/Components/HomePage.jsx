@@ -488,12 +488,12 @@ const HomePage = () => {
                         Code
                       </Button>
                     </a>
-                    <Button text color="var(--primary)" disabled>
+                    <Button text color="var(--primary)" >
                       Explore
                     </Button>
-                    {/* <a target="_blank" href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
+                    <a target="_blank" href="https://reddit-clone-sid.netlify.app/">
                      
-                    </a> */}
+                    </a>
                   </CardAction>
                 </div>
               </Card>
