@@ -575,17 +575,17 @@ const HomePage = () => {
                     </Body2>
                   </CardContent>
                   <CardAction>
-                    <a target="_blank" href="https://github.com/pallav1998/nitrogen_project">
+                    <a target="_blank" href="https://github.com/Siddharth308/Chargebee-clone">
                       <Button text color="var(--primary)">
                         Code
                       </Button>
                     </a>
+                    
+                    <a target="_blank" href="https://siddharth308.github.io/Chargebee-clone/">
                     <Button text color="var(--primary)" disabled>
                       Explore
                     </Button>
-                    {/* <a target="_blank" href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
-                     
-                    </a> */}
+                    </a>
                   </CardAction>
                 </div>
               </Card>
