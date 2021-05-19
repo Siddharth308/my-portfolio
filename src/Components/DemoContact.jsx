@@ -92,7 +92,7 @@ const DemoContact = () => {
                 className="contact__input"
                 id="subject"
                 type="text"
-                placeholder="Any message for me!!"
+                placeholder="Drop any message here or contact: prabhu.sid97@gmail.com  +919777099605"
                 name="subject"
                 value={desc}
                 onChange={(e) => setDesc(e.value)}

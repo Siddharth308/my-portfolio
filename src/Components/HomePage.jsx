@@ -537,7 +537,7 @@ const HomePage = () => {
                   <CardContent>
                     <Subtitle2
                       secondary
-                      style={{ marginBottom: "4px" }}
+                      style={{ marginBottom: "32px" }}
                     ></Subtitle2>
                     <Body2>
                       A platform where user can add tasks that they want to
@@ -545,7 +545,7 @@ const HomePage = () => {
                     </Body2>
                   </CardContent>
                   <CardAction>
-                    <a target="_blank" href="https://github.com/SmithRakesh/Beryllium">
+                    <a target="_blank" href="https://github.com/Siddharth308/Timecamp-clone">
                       <Button text color="var(--primary)">
                         Code
                       </Button>
