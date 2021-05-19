@@ -530,7 +530,7 @@ const HomePage = () => {
               </Card>
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
-                  <a target="_blank" href="https://github.com/SmithRakesh/Beryllium">
+                  <a target="_blank" href="https://github.com/Siddharth308/Timecamp-clone">
                     <img src="img/timecamp.png" alt="" />
                     <H6>Timecamp Clone Application</H6>
                   </a>
@@ -550,12 +550,12 @@ const HomePage = () => {
                         Code
                       </Button>
                     </a>
-                    <Button text color="var(--primary)" disabled>
+                   
+                    <a target="_blank" href="https://siddharth308.github.io/Timecamp-clone/">
+                    <Button text color="var(--primary)" >
                       Explore
                     </Button>
-                    {/* <a target="_blank" href="https://60601aa669e55d6d22f1cce0--aljajeera-clone.netlify.app/">
-                     
-                    </a> */}
+                    </a>
                   </CardAction>
                 </div>
               </Card>
@@ -570,8 +570,7 @@ const HomePage = () => {
                      
                     </Subtitle2>
                     <Body2>
-                      A platform where user can add tasks that they want to
-                      assign
+                    A clone of 5 pages from Chargebee site
                     </Body2>
                   </CardContent>
                   <CardAction>
@@ -582,7 +581,7 @@ const HomePage = () => {
                     </a>
                     
                     <a target="_blank" href="https://siddharth308.github.io/Chargebee-clone/">
-                    <Button text color="var(--primary)" disabled>
+                    <Button text color="var(--primary)" >
                       Explore
                     </Button>
                     </a>
