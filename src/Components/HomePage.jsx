@@ -131,7 +131,7 @@ const HomePage = () => {
         <header class="l-header">
           <nav class="nav bd-grid">
             <div>
-              <a target="_blank"  target="_blank" href="#" class="nav__logo" onClick={refreshPage}>
+              <a  href="#" class="nav__logo" onClick={refreshPage}>
                 Siddharth
               </a>
             </div>
