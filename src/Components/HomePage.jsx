@@ -468,10 +468,10 @@ const HomePage = () => {
             <div class="work__container bd-grid">
               <Card style={{ padding: "8px" }}>
                 <div class="work__img ">
-                  <a target="_blank" href="">
+                  {/* <a target="_blank" href=""> */}
                     <img src="img/reddit.png" alt="" />
                     <H6>Reddit Clone Application</H6>
-                  </a>
+                  {/* </a> */}
                   <CardContent>
                     <Subtitle2
                       secondary
