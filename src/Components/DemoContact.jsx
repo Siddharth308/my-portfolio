@@ -12,7 +12,7 @@ const DemoContact = () => {
   const [sub, setSub] = React.useState("");
   const [desc, setDesc] = React.useState("");
 
-
+  let str = "Drop any message here or please contact" + "\n" +"\n"+ "prabhu.sid97@gmail.com  +919777099605"
   const serviceID = "siddharth_308";
   const templateID = "template_a104iza";
   const userID = "user_ZiINrBsMFdhQQlYNuEm0q";
@@ -84,6 +84,7 @@ const DemoContact = () => {
                 value={email}
                 onChange={(e) => setEmail(e.value)}
               />
+            
               <TextArea
                 width={wid}
                 height="160"
@@ -92,7 +93,7 @@ const DemoContact = () => {
                 className="contact__input"
                 id="subject"
                 type="text"
-                placeholder="Drop any message here or contact: prabhu.sid97@gmail.com  +919777099605"
+                placeholder={str}
                 name="subject"
                 value={desc}
                 onChange={(e) => setDesc(e.value)}

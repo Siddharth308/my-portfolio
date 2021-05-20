@@ -144,27 +144,27 @@ const HomePage = () => {
             >
               <ul class="nav__list">
                 <li class="nav__item">
-                  <a target="_blank" href="#home" class="nav__link active">
+                  <a  href="#home" class="nav__link active">
                     Home
                   </a>
                 </li>
                 <li class="nav__item">
-                  <a target="_blank" href="#about" class="nav__link">
+                  <a  href="#about" class="nav__link">
                     About
                   </a>
                 </li>
                 <li class="nav__item">
-                  <a target="_blank" href="#skills" class="nav__link">
+                  <a  href="#skills" class="nav__link">
                     Skills
                   </a>
                 </li>
                 <li class="nav__item">
-                  <a target="_blank" href="#work" class="nav__link">
+                  <a  href="#work" class="nav__link">
                     Work
                   </a>
                 </li>
                 <li class="nav__item">
-                  <a target="_blank" href="#contact" class="nav__link">
+                  <a href="#contact" class="nav__link">
                     Contact
                   </a>
                 </li>
