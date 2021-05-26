@@ -206,7 +206,7 @@ const HomePage = () => {
               {/* <Button className="button" color='#ccc' bgColor='var(--primary)'>colored</Button> */}
               <a 
                 target="_blank"
-                href="https://drive.google.com/file/d/1tiZ8vL6Zl7D5GUrWPWlNuoESDUl9ZZme/view?usp=sharing"
+                href="https://drive.google.com/file/d/1tmvwqTDH0d_ZQtJSEqHinSvOXaAwKEzX/view?usp=sharing"
                 class="button"
               >
                 Get Resume
